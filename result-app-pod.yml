@@ -14,7 +14,7 @@ spec:
     resources:
         requests:
           cpu: "0.5"  # Request 0.5 CPU cores
-          memory: "256Mi"  # Request 512 MB of memory
+          memory: "128Mi"  # Request 512 MB of memory
         limits:
           cpu: "1"  # Limit to 1 CPU core
-          memory: "512Mi"  # Limit to 1 GB of memory
+          memory: "256Mi"  # Limit to 1 GB of memory
